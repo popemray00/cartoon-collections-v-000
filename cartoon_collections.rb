@@ -8,12 +8,13 @@ end
 
 def summon_captain_planet(veggies)
   i = 0
-   while i < veggies.length 
-     veggies.collect { |x| x + "!"}
+  array = []
+   while i < veggies.length
+     array << veggies[i].capitalizes + "!"
      i += 1
    end
-     
-     
+
+
 end
 
 def long_planeteer_calls# code an argument here

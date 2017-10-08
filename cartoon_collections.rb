@@ -10,7 +10,7 @@ def summon_captain_planet(veggies)
   i = 0
   array = []
    while i < veggies.length
-     array << veggies[i].capitalizes + "!"
+     array << veggies[i].capitalize + "!"
      i += 1
    end
    array
